@@ -9,16 +9,11 @@
         <router-link to="/"><img alt="IndiaNIC" src="./assets/indianic-black-logo.svg" /></router-link>
       </div>
 
-      <!-- <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
 
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn> -->
+      <router-link to="/">
+        <span class="mr-2" style="color:white">Log Out</span>
+      </router-link>
     </v-app-bar>
 
     <v-main>

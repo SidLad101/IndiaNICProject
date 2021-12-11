@@ -21,8 +21,6 @@
         const response = await fetch('https://61b4305baf5ff70017ca2128.mockapi.io/api/indianic_api/users/');
         this.users = await response.json();
     },
-    methods: {
-    },
     data: () => ({
       headers: [
           {
